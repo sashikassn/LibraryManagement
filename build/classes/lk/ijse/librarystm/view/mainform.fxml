@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" fx:id="root" prefHeight="455.0" prefWidth="739.0" style="-fx-background-color: #ffffff;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.librarystm.controller.MainformController">
+   <children>
+      <ImageView fitHeight="512.0" fitWidth="752.0" layoutX="-5.0" pickOnBounds="true">
+         <image>
+            <Image url="@../asset/Back-To-School-Wallpaper-13-1286x822.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="386.0" layoutY="489.0" prefHeight="18.0" prefWidth="337.0" text="Copyright @  IJSE , 2018 - All Rights Reserved #SlashDeVs.">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="imgBook" fitHeight="106.0" fitWidth="114.0" layoutX="576.0" layoutY="120.0" onMouseClicked="#navigateToHome" onMouseEntered="#imgMouseEntered_On_Action" onMouseExited="#imgMouseExit_On_Action" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../asset/book.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imgReturn" fitHeight="84.0" fitWidth="106.0" layoutX="461.0" layoutY="214.0" onMouseClicked="#navigateToHome" onMouseEntered="#imgMouseEntered_On_Action" onMouseExited="#imgMouseExit_On_Action" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../asset/return.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imgReport" fitHeight="96.0" fitWidth="106.0" layoutX="581.0" layoutY="268.0" onMouseClicked="#navigateToHome" onMouseEntered="#imgMouseEntered_On_Action" onMouseExited="#imgMouseExit_On_Action" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../asset/Report.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imgBarrow" fitHeight="106.0" fitWidth="115.0" focusTraversable="true" layoutX="333.0" layoutY="120.0" onMouseClicked="#navigateToHome" onMouseEntered="#imgMouseEntered_On_Action" onMouseExited="#imgMouseExit_On_Action" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../asset/Add%20Shopping%20Cart_96px.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="lbldisplay_Text" alignment="CENTER" contentDisplay="CENTER" layoutX="342.0" layoutY="392.0" prefHeight="39.0" prefWidth="365.0" text="WELCOME" textAlignment="CENTER" textFill="#87dfff">
+         <font>
+            <Font name="System Bold" size="32.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="imgMember" fitHeight="106.0" fitWidth="106.0" layoutX="333.0" layoutY="268.0" onMouseClicked="#navigateToHome" onMouseEntered="#imgMouseEntered_On_Action" onMouseExited="#imgMouseExit_On_Action" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../asset/member.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="106.0" layoutY="14.0" text="LIBRARY MANAGEMENT SYSTEM" textFill="#f8f8f8">
+         <font>
+            <Font name="Cantarell Bold" size="31.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
